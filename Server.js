@@ -8,6 +8,7 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded({extended:false}));
 
+
 // Serve static assets for production //
 
 if(process.env.NODE_ENV === 'production') {
